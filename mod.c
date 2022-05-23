@@ -19,7 +19,7 @@ void _mod(stack_t **h, unsigned int line_num)
 
 	if ((*h)->n == 0)
 	{
-		fprintf(stderr, "L%u: division by zero", line_num);
+		fprintf(stderr, "L%u: division by zero\n", line_num);
 		exit(EXIT_FAILURE);
 	}
 
